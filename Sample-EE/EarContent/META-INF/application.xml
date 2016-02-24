@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/application_7.xsd" version="7">
+  <display-name>Sample-EE</display-name>
+  <module>
+    <web>
+      <web-uri>Sample-Web.war</web-uri>
+      <context-root>Sample-Web</context-root>
+    </web>
+  </module>
+  <module>
+    <java>Sample-Client.jar</java>
+  </module>
+  <module>
+    <ejb>Sample-EJB.jar</ejb>
+  </module>
+</application>
