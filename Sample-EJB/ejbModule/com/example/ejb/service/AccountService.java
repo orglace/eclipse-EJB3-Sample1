@@ -13,7 +13,7 @@ import com.example.ejb.entity.Customer;
 /**
  * Session Bean implementation class AccountService
  */
-@Stateless
+@Stateless(mappedName="mappedAccountService")
 @LocalBean
 public class AccountService implements AccountServiceRemote {
 
